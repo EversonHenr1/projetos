@@ -1,0 +1,33 @@
+{
+  "name": "farm-api",
+  "version": "1.0.0",
+  "description": "Api que consumirá e armazenará dados relacionados a receitas, e usuarios de uma aplicação de compartilhamento de receitas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "farm",
+    "rececipes",
+    "receitas",
+    "compartilhamento",
+    "comida",
+    "food",
+    "carne",
+    "frango",
+    "stack"
+  ],
+  "author": "Everson Henrique da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
